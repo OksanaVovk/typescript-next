@@ -30,8 +30,7 @@ TaskItem component:
   - onToggle: A callback function that will be called when the user clicks the checkbox on the task. The function should toggle the completion status of the task. This prop should be of type (id: number) => void.
 - Should render the task text and a checkbox that indicates whether the task is completed or not.
 - If the task is completed, the text should have a strikethrough style.
-- Should have a button to remove the task from the list.  
-
+- Should have a button to remove the task from the list.
 
 Here is an example of how the TaskItem component might be used with these props:
 
