@@ -2,8 +2,7 @@
   "name": "next-ts-template",
   "version": "0.1.0",
   "private": true,
-    "homepage": "https://oksanavovk.github.io/typescript-next/",
-
+  "homepage": "https://oksanavovk.github.io/typescript-next/",
   "scripts": {
     "dev": "next dev",
     "test": "jest",
@@ -13,7 +12,7 @@
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
-    "next": "^15.0.1",
+    "next": "^15.1.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
