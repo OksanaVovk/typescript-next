@@ -2,14 +2,12 @@
   "name": "next-ts-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://oksanavovk.github.io/typescript-next/",
   "scripts": {
     "dev": "next dev",
     "test": "jest",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "gh-pages -d out"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "^13.3.1",
